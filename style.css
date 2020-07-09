@@ -1,0 +1,157 @@
+/* GENERAL STYLES */
+* {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior:smooth;
+}
+:root {
+  --main-text-color: #26a69a;
+}
+.primary-color {
+  color: var(--main-text-color);
+}
+
+.section_title::after  {
+  content: "";
+  background: var(--main-text-color);
+  height: 5px;
+  width:200px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  margin-top:10px;
+}
+/* HEADER */
+#header {
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #80cbc4  ,var(--main-text-color));
+}
+
+.nav-item  {
+  padding:0 10px;
+}
+
+.nav-item  a{
+  float:right;
+  text-align:left;
+}
+
+/* BANNER */
+#banner {
+  background-image: linear-gradient(to right, #80cbc4 ,var(--main-text-color));
+  padding-top:5%;
+}
+
+.top-wave {
+  width:100%;
+  background-image: linear-gradient(to right, #80cbc4 ,var(--main-text-color));
+}
+
+/* SERVICES SECTION */
+#services {
+  padding-top:80px;
+  padding-bottom:80px;
+}
+
+.service_row {
+  margin-top:120px;
+}
+
+.service_img {
+  height:120px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.services_button {
+  margin-top:100px;
+  background:linear-gradient(to right, #80cbc4 ,var(--main-text-color)) !important;
+  border-radius:20px !important;
+  border:none;
+}
+
+/* ABOUT */
+
+#about {
+  background: #f8f9fa;
+  padding-bottom:50px;
+  padding-top:70px;
+}
+
+#about .about_btn {
+  background:linear-gradient(to right, #80cbc4 ,var(--main-text-color)) !important;
+  border:none;
+}
+
+/* TESTIMONAILS */
+#testimonials {
+  margin:100px;
+}
+
+.propic_img {
+  border-radius:50%;
+  width:80px;
+}
+
+.user_details {
+  display:inline-block;
+  margin-left:15px;
+}
+
+.col-md-5 {
+  border-left: 5px solid var(--main-text-color);
+}
+
+/* SOCIAL MEDIA */
+#social {
+  background: #f8f9fa;
+  padding-top:80px;
+  padding-bottom:80px;
+}
+
+.social-heading {
+  font-weight:600;
+}
+
+.social-icons img{
+  width:100px;
+  margin-right:50px;
+}
+
+/* FOOTER */
+#footer {
+    background:linear-gradient(to right, #80cbc4 ,var(--main-text-color));
+    padding-bottom:40px;
+}
+
+.footer_brand {
+  font-size:20px;
+}
+/* MEDIA QUERIES */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px){
+  /* service section */
+  .service_row {
+    margin-top:60px;
+  }
+
+  .services_button {
+    margin-top:40px;
+  }
+
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
