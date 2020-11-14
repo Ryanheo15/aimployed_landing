@@ -15,6 +15,10 @@ html {
   color: var(--main-text-color);
 }
 
+.primary-color2 {
+  color: #0275d8
+}
+
 .section_title::after  {
   content: "";
   background: var(--main-text-color);
@@ -33,7 +37,10 @@ html {
 }
 
 .navbar {
+  /*
   background-image: linear-gradient(to right, #80cbc4  ,var(--main-text-color));
+  */
+  background-image: linear-gradient(to right, #9708CC 0%, #14BDFF 100%);
 }
 
 .nav-item  {
@@ -47,14 +54,13 @@ html {
 
 /* BANNER */
 #banner {
+  /*
   background-image: linear-gradient(to right, #80cbc4 ,var(--main-text-color));
+  */
+  background-image: linear-gradient(to right, #9708CC 0%, #14BDFF 100%);
   padding-top:5%;
 }
 
-.top-wave {
-  width:100%;
-  background-image: linear-gradient(to right, #80cbc4 ,var(--main-text-color));
-}
 
 /* SERVICES SECTION */
 #services {
@@ -74,7 +80,11 @@ html {
 
 .services_button {
   margin-top:100px;
+  /*
   background:linear-gradient(to right, #80cbc4 ,var(--main-text-color)) !important;
+  */
+
+  background: linear-gradient(to right, #9708CC 0%, #14BDFF 100%);
   border-radius:20px !important;
   border:none;
 }
@@ -88,7 +98,11 @@ html {
 }
 
 #about .about_btn {
+  /*
   background:linear-gradient(to right, #80cbc4 ,var(--main-text-color)) !important;
+  */
+
+  background: linear-gradient(to right, #9708CC 0%, #14BDFF 100%);
   border:none;
 }
 
@@ -125,11 +139,20 @@ html {
 .social-icons img{
   width:100px;
   margin-right:50px;
+  transition:0.5s;
+}
+
+.social-icons a:hover img{
+  transform:translateY(-12px);
 }
 
 /* FOOTER */
 #footer {
+  /*
     background:linear-gradient(to right, #80cbc4 ,var(--main-text-color));
+    */
+
+    background: linear-gradient(to right, #9708CC 0%, #14BDFF 100%);
     padding-bottom:40px;
 }
 
